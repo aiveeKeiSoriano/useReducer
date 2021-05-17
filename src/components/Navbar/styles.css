@@ -1,0 +1,14 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(119, 108, 219);
+    padding: 2em;   
+    flex: 0 1 auto;
+}
+
+.Navbar p {
+    font-size: 2rem;
+    font-weight: 700;
+}

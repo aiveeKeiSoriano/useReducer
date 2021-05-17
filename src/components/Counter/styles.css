@@ -1,0 +1,30 @@
+.Counter {
+    padding: .5em;
+    background-color: rgb(217, 219, 108);
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.Counter button {
+    font-weight: 600;
+    border: none;
+    background-color: rgb(108, 219, 204);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.reset {
+    padding: .5em;
+    background-color: rgb(217, 219, 108);
+    font-size: 1.5rem;
+    width: 120px;
+    border: none;
+}

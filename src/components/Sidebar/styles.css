@@ -1,0 +1,21 @@
+.Sidebar {
+    width: 300px;
+    /* height: 100%; */
+    background-color: rgb(111, 219, 108);
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Sidebar button {
+    padding: .5rem 1em;
+    font-size: 1.3rem;
+    background-color: rgb(188, 108, 219);
+    border: none;
+    cursor: pointer;
+}
+
+.Sidebar button::after {
+
+}
