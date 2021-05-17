@@ -16,6 +16,8 @@ export function CounterContextProvider(props) {
                 return ({ counterValue: Math.max(0, state.counterValue - 1) })
             case 'reset':
                 return initialState;
+            default:
+                return(state)
         }
     }
     let [counterState, dispatch] = useReducer(reducer, initialState)
